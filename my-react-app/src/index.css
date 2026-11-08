@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.h-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.v-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* ---------------- Navigation ----------------*/
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 20%;
+}
+
+.nav-links li a {
+    text-decoration: none;
+}
+
+/* ---------------- Cards ----------------*/
+
+.card {
+    background: white;
+    max-width: 150px;
+    margin: 30px 10px 30px 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 2px rgb(12, 12, 12);
+    display: inline-block;
+}
+
+.card .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.801);
+    margin: 0;
+}
+
+/* ---------------- Product ----------------*/
+
+.fruit-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
